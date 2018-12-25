@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:sd2snes-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -434,7 +435,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 5000 7950 5000
 $Comp
-L sd2snes-rescue:GND #PWR045
+L sd2snes-rescue:GND-sd2snes-rescue #PWR045
 U 1 1 4E2C17DC
 P 4200 7400
 F 0 "#PWR045" H 4200 7400 30  0001 C CNN
@@ -508,7 +509,7 @@ F 3 "" H 7300 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:R R407
+L sd2snes-rescue:R-sd2snes-rescue R407
 U 1 1 4C814430
 P 1400 3700
 F 0 "R407" V 1300 3700 50  0000 C CNN
@@ -519,7 +520,7 @@ F 3 "" H 1400 3700 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L sd2snes-rescue:+3.3V #PWR046
+L sd2snes-rescue:+3.3V-sd2snes-rescue #PWR046
 U 1 1 4C814422
 P 1400 3400
 F 0 "#PWR046" H 1400 3360 30  0001 C CNN
@@ -546,7 +547,7 @@ NoConn ~ 3200 3700
 NoConn ~ 3200 2800
 NoConn ~ 3200 2500
 $Comp
-L sd2snes-rescue:R R422
+L sd2snes-rescue:R-sd2snes-rescue R422
 U 1 1 4C5608C9
 P 7450 4200
 F 0 "R422" V 7400 4450 50  0000 C CNN
@@ -557,7 +558,7 @@ F 3 "" H 7450 4200 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L sd2snes-rescue:R R421
+L sd2snes-rescue:R-sd2snes-rescue R421
 U 1 1 4C5608C6
 P 7450 4100
 F 0 "R421" V 7400 4350 50  0000 C CNN
@@ -570,7 +571,7 @@ $EndComp
 Text GLabel 10600 1050 2    50   BiDi ~ 0
 SD_DAT1
 $Comp
-L sd2snes-rescue:CONN_2 P403
+L sd2snes-rescue:CONN_2-sd2snes-rescue P403
 U 1 1 4C4A0B6F
 P 8500 6400
 F 0 "P403" V 8450 6400 40  0000 C CNN
@@ -581,7 +582,7 @@ F 3 "" H 8500 6400 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR047
+L sd2snes-rescue:GND-sd2snes-rescue #PWR047
 U 1 1 4C4A0B6E
 P 7950 6700
 F 0 "#PWR047" H 7950 6700 30  0001 C CNN
@@ -600,7 +601,7 @@ DAC_/DEM
 Text GLabel 2700 3800 0    50   Output ~ 0
 DIN+MCU_/OVR
 $Comp
-L sd2snes-rescue:C C412
+L sd2snes-rescue:C-sd2snes-rescue C412
 U 1 1 4C1286D5
 P 10950 3100
 F 0 "C412" H 11000 3200 50  0000 L CNN
@@ -611,7 +612,7 @@ F 3 "" H 10950 3100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:LED D403
+L sd2snes-rescue:LED-sd2snes-rescue D403
 U 1 1 4C0DA78D
 P 800 2500
 F 0 "D403" H 800 2600 50  0000 C CNN
@@ -622,7 +623,7 @@ F 3 "" H 800 2500 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L sd2snes-rescue:R R403
+L sd2snes-rescue:R-sd2snes-rescue R403
 U 1 1 4C0DA785
 P 2000 3200
 F 0 "R403" V 2050 2950 50  0000 C CNN
@@ -633,7 +634,7 @@ F 3 "" H 2000 3200 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L sd2snes-rescue:CONN_7X2 P401
+L sd2snes-rescue:CONN_7X2-sd2snes-rescue P401
 U 1 1 4C0943CA
 P 9850 6050
 F 0 "P401" H 9850 6450 60  0000 C CNN
@@ -650,7 +651,7 @@ Reset button
 Text Notes 750  1600 0    50   ~ 0
 2mA low current LEDs
 $Comp
-L sd2snes-rescue:C C405
+L sd2snes-rescue:C-sd2snes-rescue C405
 U 1 1 4C063C47
 P 1400 5600
 F 0 "C405" H 1400 5700 50  0000 L CNN
@@ -661,7 +662,7 @@ F 3 "" H 1400 5600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:R R404
+L sd2snes-rescue:R-sd2snes-rescue R404
 U 1 1 4C063C2F
 P 1400 4900
 F 0 "R404" V 1300 4900 50  0000 C CNN
@@ -672,7 +673,7 @@ F 3 "" H 1400 4900 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L sd2snes-rescue:+3.3V #PWR048
+L sd2snes-rescue:+3.3V-sd2snes-rescue #PWR048
 U 1 1 4C063C16
 P 1400 4600
 F 0 "#PWR048" H 1400 4560 30  0001 C CNN
@@ -683,7 +684,7 @@ F 3 "" H 1400 4600 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:R R423
+L sd2snes-rescue:R-sd2snes-rescue R423
 U 1 1 4C01596A
 P 9300 5000
 F 0 "R423" V 9250 5250 50  0000 C CNN
@@ -707,7 +708,7 @@ F 3 "" H 10500 5750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:+3.3V #PWR050
+L sd2snes-rescue:+3.3V-sd2snes-rescue #PWR050
 U 1 1 4BFBFF50
 P 9200 5750
 F 0 "#PWR050" H 9200 5710 30  0001 C CNN
@@ -718,7 +719,7 @@ F 3 "" H 9200 5750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR051
+L sd2snes-rescue:GND-sd2snes-rescue #PWR051
 U 1 1 4BFBFF44
 P 8850 5850
 F 0 "#PWR051" H 8850 5850 30  0001 C CNN
@@ -757,7 +758,7 @@ RX3
 Text GLabel 7000 3900 2    50   Output ~ 0
 TX3
 $Comp
-L sd2snes-rescue:R R405
+L sd2snes-rescue:R-sd2snes-rescue R405
 U 1 1 4BF850D1
 P 7250 3300
 F 0 "R405" V 7200 3550 50  0000 C CNN
@@ -768,7 +769,7 @@ F 3 "" H 7250 3300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L sd2snes-rescue:R R406
+L sd2snes-rescue:R-sd2snes-rescue R406
 U 1 1 4BF850A9
 P 7450 5100
 F 0 "R406" V 7400 4850 50  0000 C CNN
@@ -779,7 +780,7 @@ F 3 "" H 7450 5100 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L sd2snes-rescue:+3.3V #PWR052
+L sd2snes-rescue:+3.3V-sd2snes-rescue #PWR052
 U 1 1 4BF84ABB
 P 1100 1900
 F 0 "#PWR052" H 1100 1860 30  0001 C CNN
@@ -790,7 +791,7 @@ F 3 "" H 1100 1900 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:R R402
+L sd2snes-rescue:R-sd2snes-rescue R402
 U 1 1 4BF847B1
 P 2000 3100
 F 0 "R402" V 2050 2850 50  0000 C CNN
@@ -801,7 +802,7 @@ F 3 "" H 2000 3100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L sd2snes-rescue:R R401
+L sd2snes-rescue:R-sd2snes-rescue R401
 U 1 1 4BF847A7
 P 2000 3000
 F 0 "R401" V 2050 2750 50  0000 C CNN
@@ -812,7 +813,7 @@ F 3 "" H 2000 3000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L sd2snes-rescue:LED D401
+L sd2snes-rescue:LED-sd2snes-rescue D401
 U 1 1 4BF8328D
 P 1400 2500
 F 0 "D401" H 1400 2600 50  0000 C CNN
@@ -823,7 +824,7 @@ F 3 "" H 1400 2500 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L sd2snes-rescue:LED D402
+L sd2snes-rescue:LED-sd2snes-rescue D402
 U 1 1 4BF8324A
 P 1100 2500
 F 0 "D402" H 1100 2600 50  0000 C CNN
@@ -834,7 +835,7 @@ F 3 "" H 1100 2500 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR053
+L sd2snes-rescue:GND-sd2snes-rescue #PWR053
 U 1 1 4BF6C1FC
 P 5850 7600
 F 0 "#PWR053" H 5850 7600 30  0001 C CNN
@@ -845,7 +846,7 @@ F 3 "" H 5850 7600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:+3.3V #PWR054
+L sd2snes-rescue:+3.3V-sd2snes-rescue #PWR054
 U 1 1 4BF6C1F7
 P 5850 6800
 F 0 "#PWR054" H 5850 6760 30  0001 C CNN
@@ -856,7 +857,7 @@ F 3 "" H 5850 6800 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:C C404
+L sd2snes-rescue:C-sd2snes-rescue C404
 U 1 1 4BF6BFE6
 P 6600 7200
 F 0 "C404" H 6650 7300 50  0000 L CNN
@@ -867,7 +868,7 @@ F 3 "" H 6600 7200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:C C403
+L sd2snes-rescue:C-sd2snes-rescue C403
 U 1 1 4BF6BFE5
 P 6350 7200
 F 0 "C403" H 6400 7300 50  0000 L CNN
@@ -878,7 +879,7 @@ F 3 "" H 6350 7200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:C C402
+L sd2snes-rescue:C-sd2snes-rescue C402
 U 1 1 4BF6BFE2
 P 6100 7200
 F 0 "C402" H 6150 7300 50  0000 L CNN
@@ -889,7 +890,7 @@ F 3 "" H 6100 7200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:C C401
+L sd2snes-rescue:C-sd2snes-rescue C401
 U 1 1 4BF6BFE1
 P 5850 7200
 F 0 "C401" H 5900 7300 50  0000 L CNN
@@ -900,7 +901,7 @@ F 3 "" H 5850 7200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:C C411
+L sd2snes-rescue:C-sd2snes-rescue C411
 U 1 1 4BF6BFBB
 P 10700 3100
 F 0 "C411" H 10750 3200 50  0000 L CNN
@@ -921,7 +922,7 @@ CIC_DATA0
 Text GLabel 7000 2400 2    50   3State ~ 0
 CIC_DATA1
 $Comp
-L sd2snes-rescue:GND #PWR055
+L sd2snes-rescue:GND-sd2snes-rescue #PWR055
 U 1 1 4BF0021F
 P 9600 5200
 F 0 "#PWR055" H 9600 5200 30  0001 C CNN
@@ -945,7 +946,7 @@ F 5 "Assmann A-USBB-M5" H 10100 4700 60  0001 C CNN "Value"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR056
+L sd2snes-rescue:GND-sd2snes-rescue #PWR056
 U 1 1 4BEFBCAA
 P 1200 6850
 F 0 "#PWR056" H 1200 6850 30  0001 C CNN
@@ -956,7 +957,7 @@ F 3 "" H 1200 6850 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:CONN_2 P402
+L sd2snes-rescue:CONN_2-sd2snes-rescue P402
 U 1 1 4BEFBC73
 P 850 5300
 F 0 "P402" V 800 5300 40  0000 C CNN
@@ -996,7 +997,7 @@ SNES_/RESET
 Text GLabel 7650 5950 2    50   Output ~ 0
 CIC_MCLR
 $Comp
-L sd2snes-rescue:GND #PWR057
+L sd2snes-rescue:GND-sd2snes-rescue #PWR057
 U 1 1 4BEECBF1
 P 3100 6850
 F 0 "#PWR057" H 3100 6850 30  0001 C CNN
@@ -1007,7 +1008,7 @@ F 3 "" H 3100 6850 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR058
+L sd2snes-rescue:GND-sd2snes-rescue #PWR058
 U 1 1 4BEECBEF
 P 2500 6850
 F 0 "#PWR058" H 2500 6850 30  0001 C CNN
@@ -1018,7 +1019,7 @@ F 3 "" H 2500 6850 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR059
+L sd2snes-rescue:GND-sd2snes-rescue #PWR059
 U 1 1 4BEECBEE
 P 2200 6850
 F 0 "#PWR059" H 2200 6850 30  0001 C CNN
@@ -1029,7 +1030,7 @@ F 3 "" H 2200 6850 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR060
+L sd2snes-rescue:GND-sd2snes-rescue #PWR060
 U 1 1 4BEECBE5
 P 1600 6850
 F 0 "#PWR060" H 1600 6850 30  0001 C CNN
@@ -1040,7 +1041,7 @@ F 3 "" H 1600 6850 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:C C409
+L sd2snes-rescue:C-sd2snes-rescue C409
 U 1 1 4BEECBD1
 P 3100 6600
 F 0 "C409" H 3150 6700 50  0000 L CNN
@@ -1051,7 +1052,7 @@ F 3 "" H 3100 6600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:C C408
+L sd2snes-rescue:C-sd2snes-rescue C408
 U 1 1 4BEECBCD
 P 2500 6600
 F 0 "C408" H 2550 6700 50  0000 L CNN
@@ -1062,7 +1063,7 @@ F 3 "" H 2500 6600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:C C407
+L sd2snes-rescue:C-sd2snes-rescue C407
 U 1 1 4BEECBCA
 P 2200 6600
 F 0 "C407" H 2250 6700 50  0000 L CNN
@@ -1073,7 +1074,7 @@ F 3 "" H 2200 6600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:C C406
+L sd2snes-rescue:C-sd2snes-rescue C406
 U 1 1 4BEECBC1
 P 1600 6600
 F 0 "C406" H 1650 6700 50  0000 L CNN
@@ -1104,7 +1105,7 @@ SD_DAT0
 Text GLabel 8950 2650 1    50   Input ~ 0
 SD_CLK
 $Comp
-L sd2snes-rescue:CRYSTAL X402
+L sd2snes-rescue:CRYSTAL-sd2snes-rescue X402
 U 1 1 4BC243CB
 P 2800 6200
 F 0 "X402" H 2800 6350 60  0000 C CNN
@@ -1115,7 +1116,7 @@ F 3 "" H 2800 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:CRYSTAL X401
+L sd2snes-rescue:CRYSTAL-sd2snes-rescue X401
 U 1 1 4BC243C8
 P 1900 6200
 F 0 "X401" H 1900 6350 60  0000 C CNN
@@ -1126,7 +1127,7 @@ F 3 "" H 1900 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR061
+L sd2snes-rescue:GND-sd2snes-rescue #PWR061
 U 1 1 4BB8BBE8
 P 10700 3900
 F 0 "#PWR061" H 10700 3900 30  0001 C CNN
@@ -1137,7 +1138,7 @@ F 3 "" H 10700 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:+3.3V #PWR062
+L sd2snes-rescue:+3.3V-sd2snes-rescue #PWR062
 U 1 1 4BB8BBD6
 P 10700 2650
 F 0 "#PWR062" H 10700 2610 30  0001 C CNN
@@ -1148,7 +1149,7 @@ F 3 "" H 10700 2650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:+3.3V #PWR063
+L sd2snes-rescue:+3.3V-sd2snes-rescue #PWR063
 U 1 1 4BB8BB64
 P 4650 1450
 F 0 "#PWR063" H 4650 1410 30  0001 C CNN
@@ -1159,7 +1160,7 @@ F 3 "" H 4650 1450 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR064
+L sd2snes-rescue:GND-sd2snes-rescue #PWR064
 U 1 1 4BB8BB56
 P 4450 6850
 F 0 "#PWR064" H 4450 6850 30  0001 C CNN
@@ -1181,7 +1182,7 @@ F 3 "" H 4350 1450 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:+3.3V #PWR066
+L sd2snes-rescue:+3.3V-sd2snes-rescue #PWR066
 U 1 1 4BB8AE12
 P 5250 1450
 F 0 "#PWR066" H 5250 1410 30  0001 C CNN
@@ -1192,7 +1193,7 @@ F 3 "" H 5250 1450 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR067
+L sd2snes-rescue:GND-sd2snes-rescue #PWR067
 U 1 1 4BAF2DEB
 P 4650 6850
 F 0 "#PWR067" H 4650 6850 30  0001 C CNN
@@ -1203,7 +1204,7 @@ F 3 "" H 4650 6850 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sd2snes-rescue:GND #PWR068
+L sd2snes-rescue:GND-sd2snes-rescue #PWR068
 U 1 1 4BAF2DE3
 P 5100 6850
 F 0 "#PWR068" H 5100 6850 30  0001 C CNN
