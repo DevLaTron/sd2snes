@@ -1185,23 +1185,23 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TSV912IDT U2
 U 1 1 5C8AE9FB
-P 7750 4900
-F 0 "U2" H 7750 5267 50  0000 C CNN
-F 1 "TS9222" H 7750 5176 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7750 4900 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 7750 4900 50  0001 C CNN
-	1    7750 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TSV912IDT U2
-U 2 1 5C8AEABA
 P 8650 4850
 F 0 "U2" H 8650 5217 50  0000 C CNN
 F 1 "TS9222" H 8650 5126 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8650 4850 50  0001 C CNN
 F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 8650 4850 50  0001 C CNN
-	2    8650 4850
+	1    8650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TSV912IDT U2
+U 2 1 5C8AEABA
+P 7750 4900
+F 0 "U2" H 7750 5267 50  0000 C CNN
+F 1 "TS9222" H 7750 5176 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7750 4900 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 7750 4900 50  0001 C CNN
+	2    7750 4900
 	1    0    0    -1  
 $EndComp
 $Comp
