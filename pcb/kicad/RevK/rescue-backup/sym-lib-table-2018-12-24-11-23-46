@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name custom_components)(type Legacy)(uri /home/geiger/git/retroconsoles/ossc_pcb/custom_components.lib)(options "")(descr ""))
+  (lib (name ossc_board-cache)(type Legacy)(uri /home/geiger/git/retroconsoles/ossc_pcb/ossc_board-cache.lib)(options "")(descr ""))
+  (lib (name ossc_board-rescue)(type Legacy)(uri /home/geiger/git/retroconsoles/ossc_pcb/ossc_board-rescue.lib)(options "")(descr ""))
+)

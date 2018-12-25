@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name hai)(type Legacy)(uri /home/geiger/git/retroconsoles/sd2snes/pcb/kicad/libs/hai.mod)(options "")(descr ""))
+  (lib (name mypackages)(type Legacy)(uri /home/geiger/git/retroconsoles/sd2snes/pcb/kicad/libs/mypackages.mod)(options "")(descr ""))
+  (lib (name sdcard)(type Legacy)(uri /home/geiger/git/retroconsoles/sd2snes/pcb/kicad/libs/sdcard.mod)(options "")(descr ""))
+  (lib (name snescart)(type Legacy)(uri /home/geiger/git/retroconsoles/sd2snes/pcb/kicad/libs/snescart.mod)(options "")(descr ""))
+)
