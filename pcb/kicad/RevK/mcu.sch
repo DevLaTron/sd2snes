@@ -538,7 +538,6 @@ Text GLabel 2700 4200 0    50   Output ~ 0
 USB_SWCONN
 Text Notes 750  1700 0    50   ~ 0
 or 3000mcd LEDs (10k for R401-403)
-NoConn ~ 6700 5500
 NoConn ~ 6700 5400
 NoConn ~ 6700 5300
 NoConn ~ 3200 5100
@@ -1322,4 +1321,23 @@ Wire Wire Line
 Wire Wire Line
 	10100 6850 10500 6850
 NoConn ~ 3200 3600
+$Comp
+L sd2snes-rescue:GND-sd2snes-rescue #PWR?
+U 1 1 5C367926
+P 7150 5500
+F 0 "#PWR?" H 7150 5500 30  0001 C CNN
+F 1 "GND" H 7150 5430 30  0001 C CNN
+F 2 "" H 7150 5500 60  0001 C CNN
+F 3 "" H 7150 5500 60  0001 C CNN
+	1    7150 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 5500 7000 5500
+Wire Wire Line
+	7000 5500 7000 5400
+Wire Wire Line
+	7000 5400 7150 5400
+Wire Wire Line
+	7150 5400 7150 5500
 $EndSCHEMATC
