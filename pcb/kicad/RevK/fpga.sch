@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:sd2snes-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1280,17 +1279,6 @@ F 3 "" H 650 10650 60  0001 C CNN
 	1    650  10650
 	1    0    0    -1  
 $EndComp
-$Comp
-L sd2snes-rescue:XC3S400-PQ208-sd2snes-rescue U201
-U 1 1 4B6E1931
-P 8350 5850
-F 0 "U201" H 10000 10450 60  0000 L CNN
-F 1 "XC3S400-PQ208" H 10050 1200 60  0000 L CNN
-F 2 "mypackages:PQFP208_ALTPADS" H 8350 5850 60  0001 C CNN
-F 3 "" H 8350 5850 60  0001 C CNN
-	1    8350 5850
-	1    0    0    -1  
-$EndComp
 Text Notes 6550 1300 0    50   ~ 0
 JTAG
 $Comp
@@ -1511,215 +1499,14 @@ Wire Wire Line
 Wire Wire Line
 	3400 10350 3650 10350
 $Comp
-L sd2snes-rescue:XC3S400-PQ208-sd2snes-rescue U1
-U 1 1 5C3F0C6C
+L sd2snes-rescue:XC3S400-PQ208-sd2snes-rescue U201
+U 1 1 4B6E1931
 P 8350 5850
-F 0 "U1" H 10000 10450 60  0000 L CNN
+F 0 "U201" H 10000 10450 60  0000 L CNN
 F 1 "XC3S400-PQ208" H 10050 1200 60  0000 L CNN
 F 2 "mypackages:PQFP208_ALTPADS" H 8350 5850 60  0001 C CNN
 F 3 "" H 8350 5850 60  0001 C CNN
 	1    8350 5850
 	1    0    0    -1  
 $EndComp
-Connection ~ 7100 10650
-Connection ~ 6200 3300
-Connection ~ 6200 9800
-Connection ~ 6200 9900
-Connection ~ 6200 10000
-Connection ~ 6200 2100
-Connection ~ 6200 2200
-Connection ~ 8500 10650
-Connection ~ 10500 9850
-Connection ~ 10500 9750
-Connection ~ 10500 9650
-Connection ~ 10500 9550
-Connection ~ 6200 3400
-Connection ~ 7600 1050
-Connection ~ 10500 9450
-Connection ~ 8600 10650
-Connection ~ 10500 9350
-Connection ~ 10500 9250
-Connection ~ 10500 9150
-Connection ~ 10500 9050
-Connection ~ 10500 8950
-Connection ~ 8700 10650
-Connection ~ 10500 8850
-Connection ~ 6200 3500
-Connection ~ 10500 8750
-Connection ~ 9000 1050
-Connection ~ 10500 8650
-Connection ~ 10500 8550
-Connection ~ 10500 8450
-Connection ~ 10500 8350
-Connection ~ 10500 8250
-Connection ~ 7500 1050
-Connection ~ 10500 8150
-Connection ~ 8800 10650
-Connection ~ 6200 3600
-Connection ~ 10500 8050
-Connection ~ 10500 7950
-Connection ~ 10500 7750
-Connection ~ 10500 7650
-Connection ~ 8900 10650
-Connection ~ 10500 7550
-Connection ~ 7400 1050
-Connection ~ 10500 7450
-Connection ~ 10500 7350
-Connection ~ 10500 7250
-Connection ~ 7300 10650
-Connection ~ 10500 7150
-Connection ~ 10500 7050
-Connection ~ 8900 1050
-Connection ~ 10500 6950
-Connection ~ 10500 6850
-Connection ~ 9000 10650
-Connection ~ 10500 6750
-Connection ~ 10500 6650
-Connection ~ 10500 6550
-Connection ~ 10500 6450
-Connection ~ 6200 3700
-Connection ~ 10500 6350
-Connection ~ 9100 10650
-Connection ~ 10500 6250
-Connection ~ 7300 1050
-Connection ~ 10500 6150
-Connection ~ 10500 6050
-Connection ~ 10500 5950
-Connection ~ 9200 10650
-Connection ~ 6200 3800
-Connection ~ 10500 5750
-Connection ~ 10500 5650
-Connection ~ 9300 10650
-Connection ~ 7200 1050
-Connection ~ 10500 5550
-Connection ~ 10500 5450
-Connection ~ 10500 5350
-Connection ~ 10500 5250
-Connection ~ 10500 5150
-Connection ~ 9400 1050
-Connection ~ 9400 10650
-Connection ~ 10500 5050
-Connection ~ 10500 4950
-Connection ~ 8800 1050
-Connection ~ 9600 1050
-Connection ~ 10500 4850
-Connection ~ 10500 4750
-Connection ~ 7100 1050
-Connection ~ 10500 4650
-Connection ~ 9500 10650
-Connection ~ 6200 3900
-Connection ~ 10500 4550
-Connection ~ 10500 4450
-Connection ~ 10500 4350
-Connection ~ 10500 4150
-Connection ~ 10500 4050
-Connection ~ 10500 3950
-Connection ~ 9600 10650
-Connection ~ 10500 3850
-Connection ~ 7000 1050
-Connection ~ 10500 3750
-Connection ~ 6200 4000
-Connection ~ 10500 3650
-Connection ~ 10500 3550
-Connection ~ 9500 1050
-Connection ~ 8700 1050
-Connection ~ 10500 3450
-Connection ~ 9700 10650
-Connection ~ 10500 3350
-Connection ~ 10500 3250
-Connection ~ 10500 3150
-Connection ~ 10500 3050
-Connection ~ 6200 2700
-Connection ~ 6200 4100
-Connection ~ 10500 2950
-Connection ~ 6900 1050
-Connection ~ 9800 10650
-Connection ~ 10500 2850
-Connection ~ 10500 2750
-Connection ~ 10500 2650
-Connection ~ 6200 2000
-Connection ~ 6200 1900
-Connection ~ 6200 4200
-Connection ~ 6200 4300
-Connection ~ 8300 1050
-Connection ~ 6200 4400
-Connection ~ 7400 10650
-Connection ~ 6200 4500
-Connection ~ 6200 4600
-Connection ~ 6200 4800
-Connection ~ 6200 4900
-Connection ~ 6200 2800
-Connection ~ 7500 10650
-Connection ~ 6200 5000
-Connection ~ 8200 1050
-Connection ~ 6200 5100
-Connection ~ 6200 5200
-Connection ~ 6200 5300
-Connection ~ 6200 5400
-Connection ~ 6200 5500
-Connection ~ 9300 1050
-Connection ~ 6200 5600
-Connection ~ 6200 2900
-Connection ~ 6200 5700
-Connection ~ 7600 10650
-Connection ~ 6200 5800
-Connection ~ 6200 5900
-Connection ~ 6200 6000
-Connection ~ 6200 6100
-Connection ~ 6200 6200
-Connection ~ 7700 10650
-Connection ~ 6200 6300
-Connection ~ 8100 1050
-Connection ~ 6200 3000
-Connection ~ 6200 6400
-Connection ~ 6200 6500
-Connection ~ 6200 6600
-Connection ~ 7800 10650
-Connection ~ 6200 6800
-Connection ~ 6200 6900
-Connection ~ 7900 10650
-Connection ~ 8400 1050
-Connection ~ 8000 1050
-Connection ~ 6200 7000
-Connection ~ 6200 7100
-Connection ~ 6200 7200
-Connection ~ 6200 7300
-Connection ~ 6200 7400
-Connection ~ 8000 10650
-Connection ~ 6200 7500
-Connection ~ 6200 7600
-Connection ~ 9200 1050
-Connection ~ 6200 3100
-Connection ~ 9800 1050
-Connection ~ 6200 7700
-Connection ~ 6200 7800
-Connection ~ 7900 1050
-Connection ~ 6200 7900
-Connection ~ 8100 10650
-Connection ~ 6200 8000
-Connection ~ 6200 8100
-Connection ~ 6200 8200
-Connection ~ 6200 8400
-Connection ~ 7200 10650
-Connection ~ 6200 8500
-Connection ~ 6200 8600
-Connection ~ 8200 10650
-Connection ~ 6200 8700
-Connection ~ 7800 1050
-Connection ~ 6200 8800
-Connection ~ 6200 8900
-Connection ~ 6200 9000
-Connection ~ 9700 1050
-Connection ~ 9100 1050
-Connection ~ 6200 3200
-Connection ~ 6200 9100
-Connection ~ 8300 10650
-Connection ~ 6200 9200
-Connection ~ 6200 9300
-Connection ~ 6200 9400
-Connection ~ 6200 9500
-Connection ~ 6200 9600
-Connection ~ 6200 9700
-Connection ~ 7700 1050
-Connection ~ 8400 10650
 $EndSCHEMATC
