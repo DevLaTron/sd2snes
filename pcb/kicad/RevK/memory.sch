@@ -357,7 +357,7 @@ F 1 "BAT54C" H 7650 1750 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7650 1600 60  0001 C CNN
 F 3 "" H 7650 1600 60  0001 C CNN
 	1    7650 1600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text Label 8600 4050 0    50   ~ 0
 RAM_/WE

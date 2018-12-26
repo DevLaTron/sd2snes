@@ -1134,7 +1134,7 @@ F 1 "2N2222A" H 6500 9000 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 8850 60  0001 C CNN
 F 3 "" H 6500 8850 60  0001 C CNN
 	1    6500 8850
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 NoConn ~ 9300 5800
 NoConn ~ 9300 6000

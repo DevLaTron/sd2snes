@@ -1197,9 +1197,9 @@
     (pad 3 smd rect (at 1 0 90) (size 0.9 0.8) (layers Component F.Paste F.Mask)
       (net 10 /Memory/SRAM_Vcc))
     (pad 2 smd rect (at -1 0.95 90) (size 0.9 0.8) (layers Component F.Paste F.Mask)
-      (net 8 +BATT))
-    (pad 1 smd rect (at -1 -0.95 90) (size 0.9 0.8) (layers Component F.Paste F.Mask)
       (net 4 +3.3V))
+    (pad 1 smd rect (at -1 -0.95 90) (size 0.9 0.8) (layers Component F.Paste F.Mask)
+      (net 8 +BATT))
     (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1207,7 +1207,7 @@
     )
   )
 
-  (module Package_TO_SOT_SMD:SOT-23 (layer Component) (tedit 5C224948) (tstamp 5C458207)
+  (module Package_TO_SOT_SMD:SOT-23 (layer Component) (tedit 5C224948) (tstamp 5C36F6FE)
     (at 138.684 62.1665 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -1248,7 +1248,7 @@
     )
   )
 
-  (module Package_TO_SOT_SMD:SOT-23 (layer Copper) (tedit 5A02FF57) (tstamp 5C458213)
+  (module Package_TO_SOT_SMD:SOT-23 (layer Copper) (tedit 5A02FF57) (tstamp 5C36F7D7)
     (at 142.4305 119.6975 270)
     (descr "SOT-23, Standard")
     (tags SOT-23)
