@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:sd2snes-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1182,12 +1183,12 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TSV912IDT U2
 U 1 1 5C8AE9FB
-P 8650 4850
-F 0 "U2" H 8650 5217 50  0000 C CNN
-F 1 "TS9222" H 8650 5126 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8650 4850 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 8650 4850 50  0001 C CNN
-	1    8650 4850
+P 8650 4900
+F 0 "U2" H 8650 5267 50  0000 C CNN
+F 1 "TS9222" H 8650 5176 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8650 4900 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 8650 4900 50  0001 C CNN
+	1    8650 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1217,13 +1218,11 @@ Wire Wire Line
 Wire Wire Line
 	9700 5750 9050 5750
 Wire Wire Line
-	8350 4750 8250 4750
+	8350 4800 8250 4800
 Wire Wire Line
-	8250 4750 8250 4950
+	8250 4800 8250 5000
 Wire Wire Line
-	8350 4950 8250 4950
-Wire Wire Line
-	8950 4000 8950 4850
+	8350 5000 8250 5000
 Wire Wire Line
 	8050 4100 8050 4900
 Wire Wire Line
@@ -1267,11 +1266,13 @@ Wire Wire Line
 	7350 5450 7350 5650
 Wire Wire Line
 	8250 5450 8250 5650
-Wire Wire Line
-	8250 5150 8250 4950
-Connection ~ 8250 4950
+Connection ~ 8250 5000
 NoConn ~ 3250 6900
 NoConn ~ 3250 5550
 Wire Wire Line
 	6550 3050 6550 3250
+Wire Wire Line
+	8250 5150 8250 5000
+Wire Wire Line
+	8950 4000 8950 4900
 $EndSCHEMATC
