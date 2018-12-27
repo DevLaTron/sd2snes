@@ -1181,10 +1181,10 @@ Wire Wire Line
 Wire Wire Line
 	1750 1100 2350 1100
 $Comp
-L Amplifier_Operational:TSV912IDT U2
+L Amplifier_Operational:TSV912IDT U230
 U 1 1 5C8AE9FB
 P 8650 4900
-F 0 "U2" H 8650 5267 50  0000 C CNN
+F 0 "U230" H 8650 5267 50  0000 C CNN
 F 1 "TS9222" H 8650 5176 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8650 4900 50  0001 C CNN
 F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 8650 4900 50  0001 C CNN
@@ -1192,10 +1192,10 @@ F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 8650 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TSV912IDT U2
+L Amplifier_Operational:TSV912IDT U230
 U 2 1 5C8AEABA
 P 7750 4900
-F 0 "U2" H 7750 5267 50  0000 C CNN
+F 0 "U230" H 7750 5267 50  0000 C CNN
 F 1 "TS9222" H 7750 5176 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7750 4900 50  0001 C CNN
 F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 7750 4900 50  0001 C CNN
@@ -1203,10 +1203,10 @@ F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 7750 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TSV912IDT U2
+L Amplifier_Operational:TSV912IDT U230
 U 3 1 5C8AEB7C
 P 9150 5450
-F 0 "U2" H 9108 5496 50  0000 L CNN
+F 0 "U230" H 9108 5496 50  0000 L CNN
 F 1 "TS9222" H 9108 5405 50  0000 L CNN
 F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 9150 5450 50  0001 C CNN
 F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 9150 5450 50  0001 C CNN
@@ -1238,10 +1238,10 @@ Wire Wire Line
 Wire Wire Line
 	7550 5650 7350 5650
 $Comp
-L Device:R R1
+L Device:R R230
 U 1 1 5C8F8738
 P 7350 5300
-F 0 "R1" H 7450 5300 50  0000 L CNN
+F 0 "R230" H 7450 5300 50  0000 L CNN
 F 1 "10" V 7350 5250 50  0000 L CNN
 F 2 "mypackages:SM0805_FIXEDMASK" V 7280 5300 50  0001 C CNN
 F 3 "~" H 7350 5300 50  0001 C CNN
@@ -1249,10 +1249,10 @@ F 3 "~" H 7350 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R231
 U 1 1 5C8F880B
 P 8250 5300
-F 0 "R2" H 8350 5300 50  0000 L CNN
+F 0 "R231" H 8350 5300 50  0000 L CNN
 F 1 "10" V 8250 5250 50  0000 L CNN
 F 2 "mypackages:SM0805_FIXEDMASK" V 8180 5300 50  0001 C CNN
 F 3 "~" H 8250 5300 50  0001 C CNN
