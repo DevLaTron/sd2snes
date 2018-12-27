@@ -11,5 +11,4 @@
   (lib (name double_sch_kcom)(type Legacy)(uri ${KIPRJMOD}/../libs/double_sch_kcom.lib)(options "")(descr ""))
   (lib (name usb_minib)(type Legacy)(uri ${KIPRJMOD}/../libs/usb_minib.lib)(options "")(descr ""))
   (lib (name mic23250)(type Legacy)(uri ${KIPRJMOD}/../libs/mic23250.lib)(options "")(descr ""))
-  (lib (name sd2snes-cache)(type Legacy)(uri ${KIPRJMOD}/../RevF/sd2snes-cache.lib)(options "")(descr ""))
 )
