@@ -11,4 +11,5 @@
   (lib (name double_sch_kcom)(type Legacy)(uri ${KIPRJMOD}/../libs/double_sch_kcom.lib)(options "")(descr ""))
   (lib (name usb_minib)(type Legacy)(uri ${KIPRJMOD}/../libs/usb_minib.lib)(options "")(descr ""))
   (lib (name mic23250)(type Legacy)(uri ${KIPRJMOD}/../libs/mic23250.lib)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri C:/Users/User/Desktop/kicadlibs/SamacSys_Parts.lib)(options "")(descr ""))
 )
