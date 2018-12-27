@@ -1183,24 +1183,24 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TSV912IDT U230
 U 1 1 5C8AE9FB
-P 8650 4900
-F 0 "U230" H 8650 5267 50  0000 C CNN
-F 1 "TS9222" H 8650 5176 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8650 4900 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 8650 4900 50  0001 C CNN
-	1    8650 4900
-	1    0    0    -1  
+P 8600 4900
+F 0 "U230" H 8600 5267 50  0000 C CNN
+F 1 "TS9222" H 8600 5176 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8600 4900 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 8600 4900 50  0001 C CNN
+	1    8600 4900
+	-1   0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TSV912IDT U230
 U 2 1 5C8AEABA
-P 7750 4900
-F 0 "U230" H 7750 5267 50  0000 C CNN
-F 1 "TS9222" H 7750 5176 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7750 4900 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 7750 4900 50  0001 C CNN
-	2    7750 4900
-	1    0    0    -1  
+P 7700 4900
+F 0 "U230" H 7700 5267 50  0000 C CNN
+F 1 "TS9222" H 7700 5176 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7700 4900 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 7700 4900 50  0001 C CNN
+	2    7700 4900
+	-1   0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TSV912IDT U230
@@ -1214,25 +1214,7 @@ F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 9150 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 5150 9050 5150
-Wire Wire Line
-	9700 5750 9050 5750
-Wire Wire Line
-	8350 4800 8250 4800
-Wire Wire Line
-	8250 4800 8250 5000
-Wire Wire Line
-	8350 5000 8250 5000
-Wire Wire Line
-	8050 4100 8050 4900
-Wire Wire Line
 	7250 4100 8050 4100
-Wire Wire Line
-	7450 4800 7350 4800
-Wire Wire Line
-	7350 4800 7350 5000
-Wire Wire Line
-	7450 5000 7350 5000
 Wire Wire Line
 	8250 5650 8450 5650
 Wire Wire Line
@@ -1241,7 +1223,7 @@ $Comp
 L Device:R R230
 U 1 1 5C8F8738
 P 7350 5300
-F 0 "R230" H 7450 5300 50  0000 L CNN
+F 0 "R230" V 7250 5200 50  0000 L CNN
 F 1 "10" V 7350 5250 50  0000 L CNN
 F 2 "mypackages:SM0805_FIXEDMASK" V 7280 5300 50  0001 C CNN
 F 3 "~" H 7350 5300 50  0001 C CNN
@@ -1252,7 +1234,7 @@ $Comp
 L Device:R R231
 U 1 1 5C8F880B
 P 8250 5300
-F 0 "R231" H 8350 5300 50  0000 L CNN
+F 0 "R231" V 8150 5200 50  0000 L CNN
 F 1 "10" V 8250 5250 50  0000 L CNN
 F 2 "mypackages:SM0805_FIXEDMASK" V 8180 5300 50  0001 C CNN
 F 3 "~" H 8250 5300 50  0001 C CNN
@@ -1260,19 +1242,41 @@ F 3 "~" H 8250 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7350 5000 7350 5150
-Connection ~ 7350 5000
-Wire Wire Line
 	7350 5450 7350 5650
 Wire Wire Line
 	8250 5450 8250 5650
-Connection ~ 8250 5000
 NoConn ~ 3250 6900
 NoConn ~ 3250 5550
 Wire Wire Line
 	6550 3050 6550 3250
 Wire Wire Line
-	8250 5150 8250 5000
+	7350 4900 7350 5150
 Wire Wire Line
-	8950 4000 8950 4900
+	8250 4900 8250 5150
+Wire Wire Line
+	8050 4100 8050 4800
+Wire Wire Line
+	8000 4800 8050 4800
+Wire Wire Line
+	8950 4000 8950 4800
+Connection ~ 8050 4800
+Wire Wire Line
+	8050 4800 8050 5000
+Wire Wire Line
+	8050 5000 8000 5000
+Wire Wire Line
+	8950 4800 8900 4800
+Connection ~ 8950 4800
+Wire Wire Line
+	8950 4800 8950 5000
+Wire Wire Line
+	8950 5000 8900 5000
+Wire Wire Line
+	8300 4900 8250 4900
+Wire Wire Line
+	7400 4900 7350 4900
+Wire Wire Line
+	9050 5150 9700 5150
+Wire Wire Line
+	9050 5750 9700 5750
 $EndSCHEMATC
