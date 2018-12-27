@@ -1182,24 +1182,13 @@ Wire Wire Line
 	1750 1100 2350 1100
 $Comp
 L Amplifier_Operational:TSV912IDT U230
-U 1 1 5C8AE9FB
-P 8600 4900
-F 0 "U230" H 8600 5267 50  0000 C CNN
-F 1 "TS9222" H 8600 5176 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8600 4900 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 8600 4900 50  0001 C CNN
-	1    8600 4900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TSV912IDT U230
 U 2 1 5C8AEABA
-P 7700 4900
-F 0 "U230" H 7700 5267 50  0000 C CNN
-F 1 "TS9222" H 7700 5176 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7700 4900 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 7700 4900 50  0001 C CNN
-	2    7700 4900
+P 7700 4950
+F 0 "U230" H 7700 5317 50  0000 C CNN
+F 1 "TS9222" H 7700 5226 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7700 4950 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 7700 4950 50  0001 C CNN
+	2    7700 4950
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1250,33 +1239,46 @@ NoConn ~ 3250 5550
 Wire Wire Line
 	6550 3050 6550 3250
 Wire Wire Line
-	7350 4900 7350 5150
-Wire Wire Line
-	8250 4900 8250 5150
-Wire Wire Line
-	8050 4100 8050 4800
-Wire Wire Line
-	8000 4800 8050 4800
-Wire Wire Line
-	8950 4000 8950 4800
-Connection ~ 8050 4800
-Wire Wire Line
-	8050 4800 8050 5000
-Wire Wire Line
-	8050 5000 8000 5000
-Wire Wire Line
-	8950 4800 8900 4800
-Connection ~ 8950 4800
-Wire Wire Line
-	8950 4800 8950 5000
-Wire Wire Line
-	8950 5000 8900 5000
-Wire Wire Line
-	8300 4900 8250 4900
-Wire Wire Line
-	7400 4900 7350 4900
-Wire Wire Line
 	9050 5150 9700 5150
 Wire Wire Line
 	9050 5750 9700 5750
+$Comp
+L Amplifier_Operational:TSV912IDT U230
+U 1 1 5C8AE9FB
+P 8550 4950
+F 0 "U230" H 8550 5317 50  0000 C CNN
+F 1 "TS9222" H 8550 5226 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8550 4950 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 8550 4950 50  0001 C CNN
+	1    8550 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 4950 8250 5150
+Wire Wire Line
+	8950 5050 8850 5050
+Wire Wire Line
+	8950 4000 8950 5050
+Wire Wire Line
+	8250 4950 8250 4650
+Wire Wire Line
+	8250 4650 8850 4650
+Wire Wire Line
+	8850 4650 8850 4850
+Wire Wire Line
+	8050 5050 8000 5050
+Wire Wire Line
+	8050 4100 8050 5050
+Wire Wire Line
+	8000 4850 8000 4650
+Wire Wire Line
+	8000 4650 7350 4650
+Wire Wire Line
+	7350 4650 7350 4950
+Wire Wire Line
+	7400 4950 7350 4950
+Connection ~ 7350 4950
+Wire Wire Line
+	7350 4950 7350 5150
+Connection ~ 8250 4950
 $EndSCHEMATC
