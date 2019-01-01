@@ -1,0 +1,69 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Manufacturer,PartNo
+1,,BATTERY-sd2snes-rescue,BT351,Keystone 1059 / KZH20PCB,BT_KEYSTONE_1059_20MM,1,,,
+2,,C-sd2snes-rescue,C101 C102 C103 C104 C105 C106 C111 C112 C113 C114 C115 C116 C201 C202 C203 C204 C205 C206 C207 C208 C209 C210 C211 C212 C213 C214 C215 C221 C222 C223 C224 C231 C232 C233 C234 C331 C341 C343 C401 C402 C403 C404 C405 C412 C501 C502 C511,100n,SM0805_FIXEDMASK,47,,,
+3,,C-sd2snes-rescue,C332 C333,100p,SM0805_FIXEDMASK,2,,,
+4,,C-sd2snes-rescue,C391,100u,SM1210L,1,~,,
+5,,C-sd2snes-rescue,C302,10n,SM0805_FIXEDMASK,1,,,
+6,,C-sd2snes-rescue,C121 C122 C123 C124 C125 C126 C127 C128 C408 C409,10p,SM0805_FIXEDMASK,10,,,
+7,,C-sd2snes-rescue,C344 C345 C411,10u,SM0805_FIXEDMASK,3,,,
+8,,C-sd2snes-rescue,C342,1u,SM0805_FIXEDMASK,1,,,
+9,,C-sd2snes-rescue,C406 C407,33p,SM0805_FIXEDMASK,2,,,
+10,,C-sd2snes-rescue,C301 C303 C304 C311 C312 C321 C322,4.7u,SM0805_FIXEDMASK,7,,,
+11,Double diode Shottky Cathodes communes,DOUBLE_SCH_KCOM2,D511,BAT54C,SOT-23,1,,,
+12,,LED-sd2snes-rescue,D403,"LED 2mA 1.7V, red",LED-3MM-FIXED,1,,,
+13,,LED-sd2snes-rescue,D402,"LED 2mA 1.8V, yellow",LED-3MM-FIXED,1,,,
+14,,LED-sd2snes-rescue,D401,"LED 2mA 1.9V, green",LED-3MM-FIXED,1,,,
+15,Ferrite bead,Ferrite_Bead,FB341,FILTER,SM0805_FIXEDMASK,1,,,
+16,DM3 RA SMT microSD memory card push/push DM3 RA SMT microSD memory card push/push,DM3AT-SF-PEJM5,J411,Hirose DM3BT,Hirose_DM3BT-DSF-PEJS,1,https://componentsearchengine.com/Datasheets/1/DM3AT-SF-PEJM5.pdf,,
+17,,SNESCART_EXT,J101,SNESCART_EXT,SNESCART_EXT,1,,,
+18,,USB_MINIB,J421,USB Mini-B SMT,USB_MINIB_SMT,1,,Molex,
+19,Ferrite bead,Ferrite_Bead,JP341,FB 0603,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,1,,,
+20,"Jumper, normally closed",Jumper,JP401,JUMPER,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,1,,,
+21,"Jumper, normally closed",Jumper,JP402,JUMPER,SM0805_FIXEDMASK,1,,,
+22,Inductor,L,L391,10uH,SM1210L,1,~,,
+23,,INDUCTOR-sd2snes-rescue,L301 L302,1uH,SM1210L,2,,Murata,LQH32PN1R0NN0L
+24,,CONN_2-sd2snes-rescue,P402 P403,CONN_2,PinHeader_1x02_P2.54mm_Vertical,2,,,
+25,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,P404,CONN_3X2,PinHeader_2x03_P2.54mm_Vertical,1,,,
+26,,CONN_7X2-sd2snes-rescue,P401,CONN_7X2,pin_array_7x2,1,,,
+27,,NPN-sd2snes-rescue,Q101 Q511,2N2222A,SOT-23-EBC,2,,,
+28,"-3.7A Id, -20V Vds, P-channel MOSFET, 65mOhm Rds, SOT-23",IRLML6402,Q301,IRLML6402PbF,SOT-23,1,http://www.vishay.com/docs/70209/70209.pdf,,
+29,,R-sd2snes-rescue,R423,1.5k,SM0805_FIXEDMASK,1,,,
+30,Resistor,R,R230 R231,10,SM0805_FIXEDMASK,2,~,,
+31,,R-sd2snes-rescue,R405 R406,100,SM0805_FIXEDMASK,2,,,
+32,,R-sd2snes-rescue,R102 R513,100k,SM0805_FIXEDMASK,2,,,
+33,,R-sd2snes-rescue,R404 R407,10k,SM0805_FIXEDMASK,2,,,
+34,,R-sd2snes-rescue,R301 R511,20k,SM0805_FIXEDMASK,2,,,
+35,,R-sd2snes-rescue,R101,270,SM0805_FIXEDMASK,1,,,
+36,,R-sd2snes-rescue,R421 R422,33,SM0805_FIXEDMASK,2,,,
+37,,R-sd2snes-rescue,R103 R512,4k7,SM0805_FIXEDMASK,2,,,
+38,,R-sd2snes-rescue,R331 R332 R333 R401 R402 R403,680,SM0805_FIXEDMASK,6,,,
+39,"4 resistor network, parallel topology, DIP package",R_Pack04,RA101 RA102 RA105 RA106 RA107 RA108 RA109 RA110 RA111 RA112 RA113 RA114,100,R_PACK_1206_2,12,,,
+40,"4 resistor network, parallel topology, DIP package",R_Pack04,RA103 RA104,FB,R_PACK_1206_2,2,,,
+41,,74ALVC164245,U101 U102 U103,74ALVC164245DGG,TSSOP48,3,,,
+42,,CS4344,U341,CS4344,TSSOP10,1,,,
+43,,CY62148EV30-ZSXI,U511,CY62148EV30-ZSXI,TSOPII-32,1,,,
+44,,LPC1754,U401,LPC1754,LQFP80-.5,1,,,
+45,,MCP1824-SOT23-Fixed,U311,MCP1824-1802E/OT,SOT23-5_LARGEPADS,1,,,
+46,,MCP1824-SOT23-Fixed,U321,MCP1824-2502E/OT,SOT23-5_LARGEPADS,1,,,
+47,,MIC23250_FIXOUT,U301,MIC23250-S4YMT,QFN10-2x2,1,,,
+48,,MT45W8MW16,U501,MT45W8MW16,VFBGA54,1,,,
+49,,PIC12F629-sd2snes-rescue,U331,PIC12F629-I/P,DIP-8_W7.62mm,1,,,
+50,"Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8",TSV912IDT,U230,TS9222,TSSOP-8_4.4x3mm_P0.65mm,1,www.st.com/resource/en/datasheet/tsv911.pdf,,
+51,,XC3S400-PQ208-sd2snes-rescue,U201,XC3S400-PQ208,PQFP208_ALTPADS,1,,,
+52,,CRYSTAL-sd2snes-rescue,X401,12MHz,HC49US,1,,,
+53,,CRYSTAL-sd2snes-rescue,X402,32.768kHz,XTAL_SMD_05019,1,,,
+
+
+
+
+
+Component Groups:,53
+Component Count:,147
+Fitted Components:,147
+Number of PCBs:,1
+Total components:,147
+Schematic Version:,K
+Schematic Date:,2018-12-24
+BoM Date:,Do 27 Dez 2018 21:33:30 CET
+Schematic Source:,/home/geiger/git/retroconsoles/sd2snes/pcb/kicad/RevK/sd2snes.sch
+KiCad Version:,Eeschema 5.0.2-bee76a0~70~ubuntu18.10.1
