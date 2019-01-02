@@ -78,8 +78,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 4200 7200 4200
 Wire Wire Line
-	9700 4650 9300 4650
-Wire Wire Line
 	8150 5200 8150 6300
 Wire Wire Line
 	3200 3800 2700 3800
@@ -133,17 +131,8 @@ Wire Wire Line
 	5850 7400 5850 7500
 Wire Wire Line
 	6700 2700 7000 2700
-Connection ~ 9600 4900
-Wire Wire Line
-	9700 4900 9600 4900
-Wire Wire Line
-	9700 4400 8250 4400
-Wire Wire Line
-	8250 4400 8250 600 
 Wire Wire Line
 	8250 600  1800 600 
-Wire Wire Line
-	8050 4650 8050 4100
 Wire Wire Line
 	3200 5200 2800 5200
 Wire Wire Line
@@ -268,13 +257,6 @@ Wire Wire Line
 Wire Wire Line
 	1200 6850 1200 5950
 Wire Wire Line
-	9700 4800 9600 4800
-Wire Wire Line
-	9600 4800 9600 4900
-Wire Wire Line
-	9700 5000 9600 5000
-Connection ~ 9600 5000
-Wire Wire Line
 	6700 2600 7000 2600
 Wire Wire Line
 	3200 4800 2700 4800
@@ -317,8 +299,6 @@ Wire Wire Line
 	6700 4000 7000 4000
 Wire Wire Line
 	8850 5850 9450 5850
-Wire Wire Line
-	8150 4550 8150 4200
 Connection ~ 1400 5200
 Wire Wire Line
 	1400 5800 1400 5950
@@ -339,14 +319,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 6500 8150 6500
 Wire Wire Line
-	8150 4550 9700 4550
-Wire Wire Line
 	7200 4100 6700 4100
-Wire Wire Line
-	8150 4200 7700 4200
-Wire Wire Line
-	9300 4750 9300 4650
-Connection ~ 9300 4650
 Wire Wire Line
 	3200 4000 1400 4000
 Wire Wire Line
@@ -409,19 +382,19 @@ F 3 "" H 4700 7200 60  0001 C CNN
 $EndComp
 Text GLabel 7950 5000 2    50   Input ~ 0
 /USEBATT
-Text GLabel 10500 6750 2    50   BiDi ~ 0
+Text GLabel 10500 6800 2    50   BiDi ~ 0
 MCU_SPARE
 Text GLabel 7300 4700 2    50   BiDi ~ 0
 MCU_SPARE
-Text GLabel 9200 6850 0    50   Output ~ 0
+Text GLabel 9200 6900 0    50   Output ~ 0
 P2_CLK
-Text GLabel 10500 6850 2    50   Input ~ 0
+Text GLabel 10500 6900 2    50   Input ~ 0
 P2_D0
-Text GLabel 9200 6750 0    50   Output ~ 0
+Text GLabel 9200 6800 0    50   Output ~ 0
 P_LATCH
-Text GLabel 10500 6650 2    50   Output ~ 0
+Text GLabel 10500 6700 2    50   Output ~ 0
 P1_CLK
-Text GLabel 9200 6650 0    50   Input ~ 0
+Text GLabel 9200 6700 0    50   Input ~ 0
 P1_D0
 Text GLabel 7300 4800 2    50   Input ~ 0
 P2_CLK
@@ -436,12 +409,12 @@ P1_D0
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even P404
 U 1 1 4DF9F6C8
-P 9800 6750
-F 0 "P404" H 9800 7000 50  0000 C CNN
-F 1 "CONN_3X2" V 9800 6800 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9800 6750 60  0001 C CNN
-F 3 "" H 9800 6750 60  0001 C CNN
-	1    9800 6750
+P 9800 6800
+F 0 "P404" H 9850 7000 50  0000 C CNN
+F 1 "CONN_3X2" H 9850 6600 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9800 6800 60  0001 C CNN
+F 3 "" H 9800 6800 60  0001 C CNN
+	1    9800 6800
 	1    0    0    -1  
 $EndComp
 Text Notes 6400 6250 0    50   ~ 0
@@ -649,7 +622,7 @@ L power:+5V #PWR049
 U 1 1 4BFBFF63
 P 10500 5750
 F 0 "#PWR049" H 10500 5840 20  0001 C CNN
-F 1 "+5V" H 10500 5840 30  0000 C CNN
+F 1 "+5V" H 10500 5875 30  0000 C CNN
 F 2 "" H 10500 5750 60  0001 C CNN
 F 3 "" H 10500 5750 60  0001 C CNN
 	1    10500 5750
@@ -872,25 +845,12 @@ CIC_DATA1
 $Comp
 L sd2snes-rescue:GND-sd2snes-rescue #PWR055
 U 1 1 4BF0021F
-P 9600 5200
-F 0 "#PWR055" H 9600 5200 30  0001 C CNN
-F 1 "GND" H 9600 5130 30  0001 C CNN
-F 2 "" H 9600 5200 60  0001 C CNN
-F 3 "" H 9600 5200 60  0001 C CNN
-	1    9600 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L usb_minib:USB_MINIB J421
-U 1 1 4BF00175
-P 10100 4700
-F 0 "J421" H 10100 5100 60  0000 C CNN
-F 1 "USB Mini-B SMT" H 10250 4300 60  0000 C CNN
-F 2 "mypackages:USB_MINIB_SMT" H 10100 4700 60  0001 C CNN
-F 3 "" H 10100 4700 60  0001 C CNN
-F 4 "Molex" H 10100 4700 60  0001 C CNN "Manufacturer"
-F 5 "Assmann A-USBB-M5" H 10100 4700 60  0001 C CNN "Value"
-	1    10100 4700
+P 10075 5150
+F 0 "#PWR055" H 10075 5150 30  0001 C CNN
+F 1 "GND" H 10075 5080 30  0001 C CNN
+F 2 "" H 10075 5150 60  0001 C CNN
+F 3 "" H 10075 5150 60  0001 C CNN
+	1    10075 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -933,7 +893,7 @@ $Comp
 L sd_card:DM3AT-SF-PEJM5 J411
 U 1 1 4BAA6A9C
 P 9150 2900
-F 0 "J411" H 8850 3400 60  0000 C CNN
+F 0 "J411" H 9800 3025 60  0000 C CNN
 F 1 "Hirose DM3BT" H 9350 2350 60  0000 C CNN
 F 2 "Connectors_Card:Hirose_DM3BT-DSF-PEJS" H 9150 2900 60  0001 C CNN
 F 3 "" H 9150 2900 60  0001 C CNN
@@ -1188,8 +1148,6 @@ Wire Wire Line
 Wire Wire Line
 	5850 6900 5850 6800
 Wire Wire Line
-	9600 4900 9600 5000
-Wire Wire Line
 	2500 6200 2500 5700
 Wire Wire Line
 	2200 6200 2200 5500
@@ -1220,8 +1178,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 6200 3100 6400
 Wire Wire Line
-	9600 5000 9600 5200
-Wire Wire Line
 	6100 6900 5850 6900
 Wire Wire Line
 	5850 7500 5850 7600
@@ -1234,19 +1190,17 @@ Wire Wire Line
 Wire Wire Line
 	1200 5950 1200 5400
 Wire Wire Line
-	9300 4650 8050 4650
+	9200 6700 9600 6700
 Wire Wire Line
-	9200 6650 9600 6650
+	9200 6800 9600 6800
 Wire Wire Line
-	9200 6750 9600 6750
+	9200 6900 9600 6900
 Wire Wire Line
-	9200 6850 9600 6850
+	10100 6700 10500 6700
 Wire Wire Line
-	10100 6650 10500 6650
+	10100 6800 10500 6800
 Wire Wire Line
-	10100 6750 10500 6750
-Wire Wire Line
-	10100 6850 10500 6850
+	10100 6900 10500 6900
 NoConn ~ 3200 3600
 $Comp
 L sd2snes-rescue:GND-sd2snes-rescue #PWR0126
@@ -1340,4 +1294,47 @@ Wire Wire Line
 Connection ~ 10750 3550
 Wire Wire Line
 	10750 3550 10750 3900
+$Comp
+L Connector:USB_B_Micro J421
+U 1 1 4BF00175
+P 10325 4550
+F 0 "J421" H 10325 4950 60  0000 C CNN
+F 1 "USB Micro-B SMT" V 10025 4575 60  0000 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521" H 10325 4550 60  0001 C CNN
+F 3 "" H 10325 4550 60  0001 C CNN
+F 4 "Molex" H 10325 4550 60  0001 C CNN "Manufacturer"
+	1    10325 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10025 4350 8250 4350
+Wire Wire Line
+	8250 4350 8250 600 
+NoConn ~ 10025 4750
+Wire Wire Line
+	7700 4200 7950 4200
+Wire Wire Line
+	7950 4200 7950 4650
+Wire Wire Line
+	8050 4550 8050 4100
+Wire Wire Line
+	8050 4550 9300 4550
+Wire Wire Line
+	9300 4550 9300 4750
+Connection ~ 9300 4550
+Wire Wire Line
+	9300 4550 10025 4550
+Wire Wire Line
+	7950 4650 10025 4650
+Wire Wire Line
+	10425 4950 10425 5050
+Wire Wire Line
+	10425 5050 10325 5050
+Wire Wire Line
+	10325 4950 10325 5050
+Connection ~ 10325 5050
+Wire Wire Line
+	10325 5050 10075 5050
+Wire Wire Line
+	10075 5050 10075 5150
 $EndSCHEMATC
