@@ -65,7 +65,6 @@ utils/derle
 *.asy
 *.ncf
 *.sym
-*.vhd
 *.veo
 *.vho
 *.wcfg
